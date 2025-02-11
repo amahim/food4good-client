@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Banner = () => {
     const {user} = useContext(AuthContext)
     return (
-       <div>
+       <div className='pt-36'>
             <div className='flex md:justify-around justify-center items-center md:flex-row  flex-col w-[90%] mx-auto rounded-2xl  bg-gradient-to-r from-[#ee6352] to-[#e03119] ... md:pt-0 pt-10'>
                 <div className='space-y-5 flex flex-col md:items-start items-center'>
                     <p className='md:text-start text-center text-2xl md:text-3xl lg:text-4xl text-white font-bold'><span className='text-[#262522]'>Share</span> Food , Spread <span className='text-[#262522]'>Smiles!</span><br/>

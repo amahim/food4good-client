@@ -99,7 +99,7 @@ const FoodDetails = () => {
   };
 
   return (
-    <div className="w-[90%] mx-auto">
+    <div className="w-[90%] mx-auto pt-36">
       {/* Go back button */}
       <div>
         <button

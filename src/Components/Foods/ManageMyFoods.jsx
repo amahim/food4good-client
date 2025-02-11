@@ -16,7 +16,7 @@ const ManageMyFoods = () => {
   }, [user?.email]);
 
   return (
-    <div className="w-[90%] mx-auto">
+    <div className="w-[90%] mx-auto pt-36">
       {/* Header */}
       <div>
         <p className="lg:text-4xl text-[#262522] md:text-3xl font-bold text-center text-2xl">
